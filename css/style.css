@@ -62,7 +62,7 @@ a:hover{
 .bannerimg{	
 	display: inline-block;
 	width:100%;
-	border:0.5px solid gray;
+	border:0.5 solid gray;
 	height:300px;
 	position:relative;
 	background-color: #222222;
@@ -70,7 +70,7 @@ a:hover{
 .callout1{
 	display: inline-block;
 	width:400px;
-	border:0.5px solid gray;
+	border:0.5 solid gray;
 	height:300px;
 	margin: 0px 0px;
 	position:relative;
@@ -80,7 +80,7 @@ a:hover{
 .callout2{
 	display: inline-block;
 	width:560px;
-	border:0.5px solid gray;
+	border:0.5 solid gray;
 	height:300px;
 	margin: 20px 0px 0px 15px;
 	position:relative;
@@ -90,7 +90,7 @@ a:hover{
 .callout3{
 	display: inline-block;
 	width:100%;
-	border:0.5px solid gray;
+	border:0.5 solid gray;
 	height:300px;
 	margin: 20px 0px;
 	position:relative;
@@ -147,11 +147,13 @@ a:hover{
 	margin-right: 10px;
 	height:100px;
 }
+
+/* product page */
 .left-column{
 	display: inline-block;
 	width:400px;
-	border:0.5px solid gray;
-	height:800px;
+	border:0.5 solid gray;
+	height:500px;
 	margin: 0px 0px;
 	position:relative;
 	background-color: #222222;
@@ -159,9 +161,44 @@ a:hover{
 .right-column{
 	display: inline-block;
 	width:560px;
-	border:0.5px solid gray;
-	height:800px;
+	border:0.5 solid gray;
+	height:500px;
 	margin: 0px 0px 0px 15px;
 	position:relative;
 	background-color: #222222;
+}
+
+.img-cont{
+    position: absolute;
+    margin:20px;
+    width: 360px;
+    height:350px;
+    background-color: whitesmoke;
+}
+
+.other-imgcont{
+    height:100px;
+    position: absolute;
+    bottom: 0px;
+    right:0px;
+    width:360px;
+    margin: 10px 20px;
+    background-color: whitesmoke;
+    padding-top: 5px;
+    padding-left:5px;
+
+}
+
+.other-img{
+    margin-right: 5px;
+    width: 83px;
+    height: 90px;
+}
+
+.product-info{
+    width: 500px;
+    margin: 20px auto;
+    height:460px;
+    overflow: hidden;
+    /*todo: Work on styles for the product info section */
 }
